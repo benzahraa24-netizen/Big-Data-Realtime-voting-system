@@ -8,7 +8,7 @@ This repository contains the code for a realtime election voting system. The sys
 
 ## System Flow
 <img src="Application/images/system_flow.jpg">
-![system_flow.jpg](images%2Fsystem_flow.jpg)! [system_flow.jpg](images%2Fsystem_flow.jpg)! [system_flow.jpg](images%2Fsystem_flow.jpg) ! [system_flow.jpg](images%2Fsystem_flow.jpg)! [system_flow.jpg](Images%2Fashion_flow.jpg) ! [system_flow.jpg](Images%2Fashion_flow.jpg) ! [system_flow.jpg](Images%2fasystem_flow.jpg) ! [system_flow.jpg](Images%2fasystem_flow.jpg)
+
 
 ## System Components
 - **main.py**: This is the main Python script that creates the required tables on postgres (`candidates`, `voters` and `votes`), it also creates the Kafka topic and creates a copy of the `votes` table in the Kafka topic. It also contains the logic to consume the votes from the Kafka topic and produce data to `voters_topic` on Kafka.
@@ -71,13 +71,13 @@ streamlit run streamlit-app.py
 
 ## Screenshots
 ### Candidates and Parties information
-![candidates_and_party.png](images/candidates_and_party.png)
+<img src="Application/images/candidates_and_party.png">
 ### Voters
-![voters.png](images%2Fvoters.png)
+<img src="Application/images/voters.png">
 
 ### Voting
-![voting.png](images%2Fvoting.png)
+<img src="Application/images/voting.png">
 
 ### Dashboard
-![dashboard_image.png](images%2Fdashboard_image.png)
+<img src="Application/images/dashboard_image.png">
 
